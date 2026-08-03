@@ -54,13 +54,3 @@ the full layer/combo/behavior writeup — it applies here unchanged.
    (left).
 4. If pairing misbehaves, flash `settings_reset-nice_nano_v2-zmk.uf2` to both
    halves first, then re-flash the real firmware.
-
-## Status
-
-- [x] Repo scaffolded from the correct vendor branch, RGB/encoder Kconfig cleaned up
-- [x] CI build verified green
-- [x] Keymap ported from Temper_zmk (straight copy, no compromises needed)
-- [ ] Flashed and verified on hardware
-- [ ] Trackball sensor CPI/orientation re-tuned for thumb position (currently
-      inherited as-is from the vendor's defaults in
-      `config/boards/shields/charybdis/charybdis_right.conf`)
