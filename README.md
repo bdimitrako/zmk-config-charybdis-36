@@ -54,3 +54,7 @@ the full layer/combo/behavior writeup — it applies here unchanged.
    (left).
 4. If pairing misbehaves, flash `settings_reset-nice_nano_v2-zmk.uf2` to both
    halves first, then re-flash the real firmware.
+
+## The board
+
+![Charybdis Nano36](docs/nano36.jpg)
