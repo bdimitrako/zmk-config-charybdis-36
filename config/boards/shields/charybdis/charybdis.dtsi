@@ -3,9 +3,9 @@
 #include <physical_layouts.dtsi>
 
 / {
-    Nano35_layout: Nano35_layout {
+    Nano36_layout: Nano36_layout {
         compatible = "zmk,physical-layout";
-        display-name = "Nano35";
+        display-name = "Nano36";
 
         kscan = <&kscan0>;
         transform = <&matrix_transform0>;
@@ -55,7 +55,7 @@
 / {
     chosen {
         zmk,kscan = &kscan0;
-        zmk,physical-layouts = &Nano35_layout;
+        zmk,physical-layouts = &Nano36_layout;
     };
 
     default_transform: keymap_transform_0 {
@@ -107,7 +107,7 @@
     };
 };
 
-&Nano35_layout{
+&Nano36_layout{
 
 	transform = <&default_transform>;
 	kscan = <&kscan0>;
