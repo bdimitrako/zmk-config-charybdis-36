@@ -1,0 +1,12 @@
+file_format: "1"
+id: charybdis
+name: Charybdis Nano36
+type: shield
+url: https://github.com/bdimitrako/zmk-config-charybdis-36
+requires: [pro_micro]
+features:
+  - keys
+  - pointer
+siblings:
+  - charybdis_left
+  - charybdis_right
