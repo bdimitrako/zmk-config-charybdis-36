@@ -37,18 +37,12 @@
 /*
  * Real trackball gearbox: the shield overlay already sets
  * scroll-layers = <1> on &trackball (holding NAV turns the ball into a
- * scroll wheel instead of a cursor). These input-processors add the same
- * speed ratios Temper's README documents for its virtual mouse gearbox:
- * NAV = 1st gear (slow/precise), NUM = 2nd gear (half speed),
- * RSE = 4th gear (triple speed, "turbo" travel). CPI/orientation itself
- * (config/charybdis_right.conf) is still the vendor default — re-tune once
- * this is in hand.
+ * scroll wheel instead of a cursor). The speed ratios mirroring Temper's
+ * documented NAV/NUM/RSE gears (1/3, 1/2, 3x) live in
+ * boards/shields/charybdis/charybdis_right.overlay instead of here, since
+ * &trackball_listener only exists on the right-shield build (this keymap
+ * file compiles for both halves).
  */
-&trackball_listener {
-    nav_gear   { layers = <1>; input-processors = <&zip_scroll_scaler 1 3>; };
-    num_gear   { layers = <2>; input-processors = <&zip_xy_scaler 1 2>; };
-    raise_gear { layers = <3>; input-processors = <&zip_xy_scaler 3 1>; };
-};
 
 / {
     behaviors {
