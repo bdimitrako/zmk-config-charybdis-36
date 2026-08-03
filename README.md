@@ -42,7 +42,11 @@ real hardware instead of held keys. The MSE layer's original virtual
 mmv/msc bindings are kept as a two-handed fallback.
 
 See [Temper_zmk's README](https://github.com/bdimitrako/Temper_zmk#readme) for
-the full layer/combo/behavior writeup — it applies here unchanged.
+the full layer/combo/behavior writeup — it applies here with one deviation:
+**P + L** (Temper's Caps Word combo) is repurposed as a second **MSE layer
+toggle** (`&tog 4`, active on both Base and MSE, same as the existing `W + R`
+togmouse combo) — Caps Word wasn't getting used, and a second toggle position
+made the mouse layer easier to reach one-handed.
 
 ## Flashing
 
