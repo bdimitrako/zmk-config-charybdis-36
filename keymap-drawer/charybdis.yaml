@@ -335,8 +335,8 @@ combos:
   k: Caps Lock
   l: [Base]
 - p: [3, 6]
-  k: Caps Word
-  l: [Base]
+  k: {t: MSE, h: toggle}
+  l: [Base, MSE]
 - p: [16, 17]
   k: ↹
   l: [Base]

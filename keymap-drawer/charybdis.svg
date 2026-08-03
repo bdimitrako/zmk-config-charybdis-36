@@ -358,9 +358,9 @@ path.combo { stroke: #7f7f7f; }
 <path d="M308,28 l-93,0" class="combo"/>
 <path d="M308,28 l93,0" class="combo"/>
 <rect rx="6" ry="6" x="294" y="15" width="28" height="26" class="combo"/>
-<text x="308" y="28" class="combo tap">
-<tspan x="308" dy="-0.6em">Caps</tspan><tspan x="308" dy="1.2em">Word</tspan>
-</text>
+<a href="#MSE">
+<text x="308" y="28" class="combo tap layer-activator">MSE</text>
+</a><text x="308" y="39" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-10">
 <rect rx="6" ry="6" x="434" y="71" width="28" height="26" class="combo"/>
@@ -1199,6 +1199,14 @@ path.combo { stroke: #7f7f7f; }
 <a href="#Base">
 <text x="308" y="196" class="combo tap layer-activator">Base</text>
 </a><text x="308" y="207" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-2">
+<path d="M308,28 l-93,0" class="combo"/>
+<path d="M308,28 l93,0" class="combo"/>
+<rect rx="6" ry="6" x="294" y="15" width="28" height="26" class="combo"/>
+<a href="#MSE">
+<text x="308" y="28" class="combo tap layer-activator">MSE</text>
+</a><text x="308" y="39" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
