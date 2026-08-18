@@ -308,6 +308,7 @@ combos:
 - p: [23, 26]
   k: {t: RSE, h: toggle}
   l: [Base, RSE]
+  a: top
 - p: [1, 11]
   k: {t: MSE, h: toggle}
   l: [Base, MSE]

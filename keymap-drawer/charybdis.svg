@@ -311,12 +311,12 @@ path.combo { stroke: #7f7f7f; }
 </a><text x="476" y="123" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-2">
-<path d="M308,140 l-93,0" class="combo"/>
-<path d="M308,140 l93,0" class="combo"/>
-<rect rx="6" ry="6" x="294" y="127" width="28" height="26" class="combo"/>
+<path d="M308,111 h-106 a6.0,6.0 0 0 0 -6.0,6.0 v4" class="combo"/>
+<path d="M308,111 h106 a6.0,6.0 0 0 1 6.0,6.0 v4" class="combo"/>
+<rect rx="6" ry="6" x="294" y="98" width="28" height="26" class="combo"/>
 <a href="#RSE">
-<text x="308" y="140" class="combo tap layer-activator">RSE</text>
-</a><text x="308" y="151" class="combo hold">toggle</text>
+<text x="308" y="111" class="combo tap layer-activator">RSE</text>
+</a><text x="308" y="122" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-3">
 <path d="M84,55 l0,-16" class="combo"/>
@@ -977,12 +977,12 @@ path.combo { stroke: #7f7f7f; }
 <text x="0" y="0" class="key tap">⌦</text>
 </g>
 <g class="combo combopos-0">
-<path d="M308,140 l-93,0" class="combo"/>
-<path d="M308,140 l93,0" class="combo"/>
-<rect rx="6" ry="6" x="294" y="127" width="28" height="26" class="combo"/>
+<path d="M308,111 h-106 a6.0,6.0 0 0 0 -6.0,6.0 v4" class="combo"/>
+<path d="M308,111 h106 a6.0,6.0 0 0 1 6.0,6.0 v4" class="combo"/>
+<rect rx="6" ry="6" x="294" y="98" width="28" height="26" class="combo"/>
 <a href="#RSE">
-<text x="308" y="140" class="combo tap layer-activator">RSE</text>
-</a><text x="308" y="151" class="combo hold">toggle</text>
+<text x="308" y="111" class="combo tap layer-activator">RSE</text>
+</a><text x="308" y="122" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-1">
 <path d="M308,196 l-37,0" class="combo"/>
