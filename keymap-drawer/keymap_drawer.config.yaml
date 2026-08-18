@@ -319,5 +319,6 @@ parse_config:
     tognav: {"align": "top", "offset": -1}
     toggaming: {"align": "top", "offset": 0.4}
     msetogglecombo: {"align": "top", "offset": 0.4}
+    togsym: {"align": "top", "offset": 0}
   zmk_preamble: '#define KEYMAP_DRAWER'
   zmk_additional_includes: []
