@@ -17,3 +17,26 @@ jobs:
       commit_message: "[Draw] ${{ github.event.head_commit.message }}"
       destination: "commit"
       fail_on_error: ${{ fromJSON(true) }}
+
+  ball-indicator:
+    needs: draw
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+      - name: Add trackball behavior indicator to the diagram
+        run: python3 keymap-drawer/add_ball_indicator.py
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- keymap-drawer/charybdis.svg; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add keymap-drawer/charybdis.svg
+          git commit -m "[Ball] Add trackball behavior indicator to keymap diagram"
+          git push
