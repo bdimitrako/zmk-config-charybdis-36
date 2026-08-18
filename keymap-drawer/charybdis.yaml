@@ -317,7 +317,7 @@ combos:
   k: {t: GAME, h: toggle}
   l: [Base]
   a: top
-  o: -1.0
+  o: 0.4
 - p: [32, 33]
   k: {t: GAME, h: toggle}
   l: [GAME]
@@ -340,7 +340,7 @@ combos:
   k: {t: MSE, h: toggle}
   l: [Base, MSE]
   a: top
-  o: -1.0
+  o: 0.4
 - p: [15, 16]
   k: MSE
   l: [Base]
